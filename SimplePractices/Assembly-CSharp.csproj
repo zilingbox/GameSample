@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{081BA8B0-7585-5E0D-FB04-D2445527241C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:/Tools/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:/Tools/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Practices_Free\000_Freedom\UIClick.cs" />
+     <Compile Include="Assets\Practices_Free\001_Clock\ClockAnimator01.cs" />
+     <Compile Include="Assets\Practices_Free\001_Clock\ClockAnimator02.cs" />
+     <Compile Include="Assets\Practices_Free\002_Fractal\Fractal.cs" />
+     <Compile Include="Assets\Practices_Free\002_Fractal\Practice.cs" />
+     <Compile Include="Assets\Practices_Free\003_C#Learning\Family.cs" />
+     <Compile Include="Assets\Practices_Free\003_C#Learning\LearningObjects.cs" />
+     <Compile Include="Assets\Practices_Free\003_C#Learning\Person.cs" />
+     <Compile Include="Assets\Practices_Free\003_C#Learning\PersonUpgrade.cs" />
+     <Compile Include="Assets\Practices_Free\003_C#Learning\Search.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\FPSCounter.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\FPSDisplay.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\Frames\Nucleon.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\Frames\NucleonSpawner.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\ObjectPool.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\PooledObject.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\SceneSwitcher.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\Stuff.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\StuffSpawner.cs" />
+     <Compile Include="Assets\Practices_Free\004_FramesPerSecond&amp;ObjectPool\ObjectPool\StuffSpawnerRing.cs" />
+     <Compile Include="Assets\Practices_Free\005_Delegate\DelegateHandler.cs" />
+     <Compile Include="Assets\Practices_Free\005_Delegate\ObjectController.cs" />
+     <Compile Include="Assets\Practices_Free\006_Singleton\SingletonController.cs" />
+     <Compile Include="Assets\Practices_Free\007_Coroutines\MyCoroutine.cs" />
+     <Compile Include="Assets\Practices_Free\008_ItweenPath\PathTest.cs" />
+     <Compile Include="Assets\Practices_Free\009_BezCurve\Bezier.cs" />
+     <Compile Include="Assets\Practices_Free\009_BezCurve\BezierCurve.cs" />
+     <Compile Include="Assets\Practices_Free\009_BezCurve\Line.cs" />
+     <Compile Include="Assets\Practices_Special\Transform\001\SetStartPosition.cs" />
+     <Compile Include="Assets\Practices_Special\Transform\001\SetStartRotation.cs" />
+     <Compile Include="Assets\Practices_Special\Transform\001\SetStartScale.cs" />
+     <Compile Include="Assets\Practices_Special\Transform\002\RandomTransform.cs" />
+     <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\iTween.cs" />
+     <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTweenPath\iTweenPath.cs" />
+     <None Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

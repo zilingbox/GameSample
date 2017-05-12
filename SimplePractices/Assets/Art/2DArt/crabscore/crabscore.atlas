@@ -1,0 +1,160 @@
+
+crabscore.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beike1
+  rotate: false
+  xy: 157, 79
+  size: 150, 45
+  orig: 152, 47
+  offset: 1, 1
+  index: -1
+beike2
+  rotate: false
+  xy: 0, 24
+  size: 155, 100
+  orig: 157, 102
+  offset: 1, 1
+  index: -1
+beikexia
+  rotate: false
+  xy: 157, 38
+  size: 150, 39
+  orig: 152, 41
+  offset: 1, 1
+  index: -1
+eyel
+  rotate: false
+  xy: 212, 22
+  size: 12, 14
+  orig: 14, 16
+  offset: 1, 1
+  index: -1
+eyer
+  rotate: false
+  xy: 369, 57
+  size: 10, 9
+  orig: 12, 11
+  offset: 1, 1
+  index: -1
+eyesl
+  rotate: true
+  xy: 309, 46
+  size: 20, 37
+  orig: 22, 39
+  offset: 1, 1
+  index: -1
+eyesr
+  rotate: true
+  xy: 111, 2
+  size: 20, 37
+  orig: 22, 39
+  offset: 1, 1
+  index: -1
+haixing
+  rotate: false
+  xy: 460, 95
+  size: 41, 29
+  orig: 43, 31
+  offset: 1, 1
+  index: -1
+jiaol1
+  rotate: false
+  xy: 460, 77
+  size: 20, 16
+  orig: 22, 18
+  offset: 1, 1
+  index: -1
+jiaol2
+  rotate: false
+  xy: 196, 20
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+jiaol3
+  rotate: false
+  xy: 150, 0
+  size: 16, 15
+  orig: 18, 17
+  offset: 1, 1
+  index: -1
+jiaor1
+  rotate: false
+  xy: 482, 77
+  size: 20, 16
+  orig: 22, 18
+  offset: 1, 1
+  index: -1
+jiaor2
+  rotate: false
+  xy: 178, 19
+  size: 16, 17
+  orig: 18, 19
+  offset: 1, 1
+  index: -1
+jiaor3
+  rotate: true
+  xy: 168, 0
+  size: 15, 16
+  orig: 17, 18
+  offset: 1, 1
+  index: -1
+pangxie
+  rotate: false
+  xy: 309, 68
+  size: 71, 56
+  orig: 73, 58
+  offset: 1, 1
+  index: -1
+qiansl
+  rotate: false
+  xy: 382, 76
+  size: 37, 48
+  orig: 39, 50
+  offset: 1, 1
+  index: -1
+qiansr
+  rotate: false
+  xy: 421, 76
+  size: 37, 48
+  orig: 39, 50
+  offset: 1, 1
+  index: -1
+qianxl
+  rotate: false
+  xy: 348, 47
+  size: 19, 19
+  orig: 21, 21
+  offset: 1, 1
+  index: -1
+qianxr
+  rotate: false
+  xy: 157, 17
+  size: 19, 19
+  orig: 21, 21
+  offset: 1, 1
+  index: -1
+qianyyl
+  rotate: false
+  xy: 226, 29
+  size: 7, 7
+  orig: 9, 9
+  offset: 1, 1
+  index: -1
+qianyyr
+  rotate: false
+  xy: 369, 48
+  size: 7, 7
+  orig: 9, 9
+  offset: 1, 1
+  index: -1
+yy
+  rotate: false
+  xy: 0, 5
+  size: 109, 17
+  orig: 111, 19
+  offset: 1, 1
+  index: -1
