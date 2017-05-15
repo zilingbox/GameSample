@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Practices_Free/001_Clock/Clock01.unity
+- path: Assets/Practices_Free/009_BezCurve/Scene.unity
   isLoaded: 1
   isActive: 1
