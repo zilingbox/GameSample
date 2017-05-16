@@ -75,6 +75,7 @@
      <Compile Include="Assets\Practices_Free\009_BezCurve\BezierCurve.cs" />
      <Compile Include="Assets\Practices_Free\009_BezCurve\BezierSpline.cs" />
      <Compile Include="Assets\Practices_Free\009_BezCurve\Line.cs" />
+     <Compile Include="Assets\Practices_Free\011_ProceduralGrid\Grid.cs" />
      <Compile Include="Assets\Practices_Special\Transform\001\SetStartPosition.cs" />
      <Compile Include="Assets\Practices_Special\Transform\001\SetStartRotation.cs" />
      <Compile Include="Assets\Practices_Special\Transform\001\SetStartScale.cs" />

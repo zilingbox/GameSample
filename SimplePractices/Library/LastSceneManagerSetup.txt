@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Practices_Free/009_BezCurve/Scene.unity
+- path: Assets/Practices_Free/011_ProceduralGrid/011.unity
   isLoaded: 1
   isActive: 1
