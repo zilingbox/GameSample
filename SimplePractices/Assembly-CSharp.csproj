@@ -86,9 +86,6 @@
      <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\iTween.cs" />
      <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTweenPath\iTweenPath.cs" />
      <None Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -103,9 +100,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
