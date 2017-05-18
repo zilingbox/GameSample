@@ -49,8 +49,12 @@
      <Compile Include="Assets\Practices_Free\009_BezCurve\Editor\BezierCurveInspector.cs" />
      <Compile Include="Assets\Practices_Free\009_BezCurve\Editor\BezierSplineInspector.cs" />
      <Compile Include="Assets\Practices_Free\009_BezCurve\Editor\LineInspector.cs" />
+     <Compile Include="Assets\Practices_Special\001_HexMap\Scripts\Editor\HexCoordinatesDrawer.cs" />
      <Compile Include="Assets\ThirdScripts\iTween\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
      <None Include="Assets\ThirdScripts\iTween\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -92,6 +96,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.VR">
  <HintPath>F:/Tools/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
