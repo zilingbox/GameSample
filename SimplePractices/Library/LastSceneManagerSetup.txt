@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Practices_Special/001_HexMap/001_HexMap.unity
+- path: Assets/Practices_Free/009_BezCurve/Scene.unity
   isLoaded: 1
   isActive: 1
